@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yamete Party</title>
+  <meta name="theme-color" content="#0e0818">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;900&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/hote.css">
+</head>
+<body class="hote">
+  <div class="fond" aria-hidden="true"><i class="blob b1"></i><i class="blob b2"></i><i class="blob b3"></i><i class="grain"></i></div>
+  <header id="barre" class="barre verre" hidden></header>
+  <main id="scene" class="scene"></main>
+  <button id="btn-hof" class="fab verre" hidden title="Ajouter une vanne au Hall of Fame (touche H)">★ Vanne</button>
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+  <noscript>Active JavaScript pour jouer.</noscript>
+  <script src="vendor/peerjs.min.js"></script>
+  <script src="vendor/qrcode.js"></script>
+  <script type="module" src="js/host/main.js"></script>
+</body>
+</html>
